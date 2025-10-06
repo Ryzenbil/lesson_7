@@ -75,26 +75,6 @@ public class Main {
 //        1103 - я
 //        1105 - ё
 
-        int value = 0;
-        for(int i = 1040; i < 1104; i++){
-            char chars = (char) i;
-            value += 1;
-            System.out.println(value + " - " + chars);
-
-
-            switch(i){
-                case 1077:
-                    chars = (char) 1105;
-                    value += 1;
-                    System.out.println(value + " - " + chars);
-                    break;
-                case 1045:
-                    chars = (char) 1025;
-                    value += 1;
-                    System.out.println(value + " - " + chars);
-                    break;
-            }
-
         }
     }
 }

@@ -1,7 +1,7 @@
 public class Container {
-    private Integer count = 0;
+    private Integer count;
 
-    public void addCount(int value) {
+    public void addCount(double value) {
         count = count + value;
     }
 
