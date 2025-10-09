@@ -8,6 +8,19 @@ public class Main {
         //  С помощью цикла и преобразования чисел в символы найдите все коды
         //  букв русского алфавита — заглавных и строчных, в том числе буквы Ё.
 
+        System.out.println("Заглавные буквы: ");
+        for (char c = 'А'; c <= 'Я'; c++) {
+            System.out.println( c + " - " + (int) c);
+        }
+        System.out.println('Ё' + " - Ё");
+
+        System.out.println("\nСтрочные буквы:");
+        for (char c = 'а'; c <= 'я'; c++) {
+            System.out.println( c + " - " + (int) c);
+        }
+        System.out.println( "ё - " + (int) - 'ё');
+    }
+
 //        1025 - Ё
 //        1040 - А
 //        1041 - Б
@@ -76,5 +89,5 @@ public class Main {
 //        1105 - ё
 
         }
-    }
-}
+
+

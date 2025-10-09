@@ -1,11 +1,19 @@
 public class Container {
-    private Integer count;
+    private Integer count = 0;
 
-    public void addCount(double value) {
-        count = count + value;
+       public Container() {
+       }
+
+       public Integer getCount(){
+           return count;
+        }
+
+    public void addCount(int value) {
+            count = count + value;
+            System.out.println(count);
     }
 
-    public int getCount() {
-        return count;
-    }
+
+
+
 }
