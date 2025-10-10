@@ -7,13 +7,21 @@ public class Main {
         // TODO: ниже напишите код для выполнения задания:
         //  С помощью цикла и преобразования чисел в символы найдите все коды
         //  букв русского алфавита — заглавных и строчных, в том числе буквы Ё.
-        for (int i = 1025; i <= 1105; i++) {
-            if(i > 1025 && (i < 1040) || (i == 1104)){
-                continue;
+        for (int i = 1040; i <= 1103; i++) {
+            if(i == 1046)  {
+                char c = (char) 1025;
+                System.out.println(1025 + "-" + c);
             }
-            char c = (char) i;
-            System.out.println(i + "-" + c);
-        }
+            if(i == 1078)  {
+                char c = (char) 1105;
+                System.out.println(1105 + "-" + c);
+            }
+                char c = (char) i;
+                System.out.println(i + "-" + c);
+            }
+
+//        if(i > 1025 && (i < 1040) || (i == 1104)){
+//            continue;
 
 
 
